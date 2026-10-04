@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Fuentes + CSS: se inyectan en TODAS las páginas desde layout.xml -->
+    <template id="head_assets" name="Codec Head: fuentes y CSS">
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+        <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&amp;family=Inter:wght@400;500&amp;display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="/codec_website_v2/static/src/css/codec.css"/>
+    </template>
+
+    <!-- Meta SEO / Open Graph / JSON-LD: solo la home -->
+    <template id="head" name="Codec Head SEO (home)">
+        <meta name="description" content="Implementamos Odoo ERP y comprobantes fiscales electrónicos e-CF certificados por la DGII en República Dominicana. Planes PyME, Crecimiento y Corporativo. Odoo Silver Partner."/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:locale" content="es_DO"/>
+        <meta property="og:title" content="Codec SRL | Odoo y Factura Electrónica e-CF en RD"/>
+        <meta property="og:description" content="ERP Odoo y facturación electrónica e-CF certificada por la DGII. Tu empresa operando en semanas."/>
+        <meta property="og:image" t-attf-content="#{request.httprequest.host_url}codec_website_v2/static/src/img/logo.png"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"CODEC S.R.L","legalName":"CODEC S.R.L","url":"https://www.codec.do/","email":"ventas@codec.do","telephone":"+18098397458","logo":"https://www.codec.do/codec_website_v2/static/src/img/logo.png","areaServed":"DO","address":{"@type":"PostalAddress","addressLocality":"Santo Domingo","addressCountry":"DO"},"description":"Empresa de transformación digital especializada en soluciones empresariales Odoo.","sameAs":["https://www.linkedin.com/in/yasmanycastillo/"]}
+</script>
+    </template>
+</odoo>

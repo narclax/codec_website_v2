@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="section_planes" name="Codec Planes">
+<section class="section" id="planes"><div class="container-xxl px-3 px-lg-4">
+ <div class="text-center mx-auto mb-5 rv" style="max-width:680px"><span class="eyebrow">Precios</span><h2 class="display fs-1">Planes a tu medida</h2><p class="text-mu">Soluciones de ERP Odoo y Facturación Electrónica e-CF con alcance claro y sin costos ocultos.</p></div>
+ <div class="row g-4">
+  <div class="col-lg-4 rv"><article class="cd pl d-flex flex-column"><h3 class="h5">Plan PyME</h3><div class="price grad">Desde $1,200</div><p class="small text-mu">pago único</p>
+   <p>La solución ideal para empresas en crecimiento que necesitan emitir facturas electrónicas y gestionar su contabilidad.</p>
+   <a href="https://wa.me/18098397458?text=Hola%2C%20me%20interesa%20el%20Plan%20PyME" target="_blank" rel="noopener" class="btn btn-o mb-3">Empezar PyME</a>
+   <ul><li>Contabilidad y Ventas locales</li><li>Facturación Electrónica e-CF</li><li>Reportes DGII</li><li>Capacitación básica incluida</li></ul>
+   <p class="small text-mu mt-auto pt-3 mb-0 border-top">Configuración instantánea. Te devolvemos tu dinero si no quedas satisfecho.</p></article></div>
+  <div class="col-lg-4 rv" style="--d:.1s"><article class="cd pl f d-flex flex-column"><h3 class="h5">Plan Crecimiento</h3><div class="price grad">Desde $2,500</div><p class="small text-mu">pago único</p>
+   <p>Control total de inventario, compras, nómina y multi-sucursal con reportes fiscales consolidados.</p>
+   <a href="#contacto" class="btn btn-c mb-3">Solicitar Demo</a>
+   <ul><li>Todo lo del Plan PyME</li><li>Gestión de Inventario y Compras</li><li>Nómina</li><li>Multi-sucursal y almacenes</li><li>Soporte post-venta prioritario</li></ul>
+   <p class="small text-mu mt-auto pt-3 mb-0 border-top">Configuración instantánea. Te devolvemos tu dinero si no quedas satisfecho.</p></article></div>
+  <div class="col-lg-4 rv" style="--d:.2s"><article class="cd pl d-flex flex-column"><h3 class="h5">Plan Corporativo</h3><div class="price grad">Cotización</div><p class="small text-mu">a medida</p>
+   <p>Para empresas que requieren integraciones avanzadas de API, multi-moneda, manufactura compleja o hosting dedicado.</p>
+   <a href="#contacto" class="btn btn-o mb-3">Contactar Ventas</a>
+   <ul><li>Multi-compañía y multi-moneda</li><li>Manufactura MRP e integraciones</li><li>Conector API REST personalizado</li><li>Hosting de alto rendimiento</li><li>Gerente de cuenta y SLA del 99.9%</li></ul>
+   <p class="small text-mu mt-auto pt-3 mb-0 border-top">Configuración instantánea. Te devolvemos tu dinero si no quedas satisfecho.</p></article></div>
+ </div></div></section>
+    </template>
+</odoo>

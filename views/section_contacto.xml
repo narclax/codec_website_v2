@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="section_contacto" name="Codec Contacto">
+<section class="section alt" id="contacto"><div class="container-xxl px-3 px-lg-4"><div class="row gy-5 gx-lg-5 align-items-center">
+ <div class="col-lg-5 rv l"><span class="eyebrow">Contacto</span><h2 class="display fs-1 mb-3">¿Listo para digitalizar tu empresa?</h2>
+  <p class="text-mu">Cuéntanos tu proyecto y agenda tu cita; te responderemos con una propuesta.</p>
+  <p class="mb-1"><strong>Correo:</strong> <a href="mailto:ventas@codec.do" class="text-decoration-none" style="color:var(--p)">ventas@codec.do</a></p>
+  <p class="mb-1"><strong>Teléfono / WhatsApp:</strong> <a href="tel:+18098397458" class="text-decoration-none" style="color:var(--p)">+1 809 839 7458</a></p>
+  <p><strong>Ubicación:</strong> Santo Domingo, República Dominicana</p></div>
+ <div class="col-lg-7 rv r"><form id="contacto_form" class="ct cd s_website_form o_mark_required" action="/website/form/" method="post" enctype="multipart/form-data" data-mark="*" data-model_name="crm.lead" data-success-mode="redirect" data-success-page="/contactus-thank-you">
+  <div class="s_website_form_rows row g-3">
+   <div class="col-md-6 s_website_form_field s_website_form_custom s_website_form_required" data-type="text" data-name="Field"><label for="ct_nombre" class="form-label">Nombre *</label><input id="ct_nombre" type="text" name="contact_name" class="form-control s_website_form_input" required="required"/></div>
+   <div class="col-md-6 s_website_form_field s_website_form_custom" data-type="tel" data-name="Field"><label for="ct_tel" class="form-label">Teléfono</label><input id="ct_tel" type="tel" name="phone" class="form-control s_website_form_input"/></div>
+   <div class="col-md-6 s_website_form_field s_website_form_custom s_website_form_required" data-type="email" data-name="Field"><label for="ct_correo" class="form-label">Correo *</label><input id="ct_correo" type="email" name="email_from" class="form-control s_website_form_input" required="required"/></div>
+   <div class="col-md-6 s_website_form_field s_website_form_custom" data-type="text" data-name="Field"><label for="ct_empresa" class="form-label">Empresa</label><input id="ct_empresa" type="text" name="partner_name" class="form-control s_website_form_input"/></div>
+   <div class="col-12 s_website_form_field s_website_form_custom s_website_form_required" data-type="text" data-name="Field"><label for="ct_asunto" class="form-label">Asunto *</label><input id="ct_asunto" type="text" name="name" class="form-control s_website_form_input" required="required"/></div>
+   <div class="col-12 s_website_form_field s_website_form_custom s_website_form_required" data-type="text" data-name="Field"><label for="ct_msg" class="form-label">Mensaje *</label><textarea id="ct_msg" name="description" rows="4" class="form-control s_website_form_input" required="required"></textarea></div>
+   <div class="col-12 s_website_form_submit" data-name="Submit Button">
+    <a href="#" role="button" class="btn btn-c s_website_form_send">Enviar mensaje</a>
+    <a class="btn btn-o ms-sm-2 mt-2 mt-sm-0" href="/appointment/1">Agendar cita</a>
+    <span id="s_website_form_result" class="d-block mt-3"></span>
+   </div>
+  </div></form></div>
+ </div></div></section>
+    </template>
+</odoo>

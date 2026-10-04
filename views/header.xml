@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="header" name="Codec Header">
+<t t-set="codec_user" t-value="request.env.user"/>
+        <header class="hd" id="hd">
+ <div class="container-xxl px-3 px-lg-4">
+  <nav class="d-flex align-items-center justify-content-between" aria-label="Principal">
+   <a href="/#inicio" class="d-flex align-items-center gap-2 text-decoration-none" aria-label="CODEC S.R.L, inicio"><img src="/codec_website_v2/static/src/img/logo.png" alt="Codec SRL" width="66" height="64"/><span class="brand">CODEC <span class="grad">S.R.L</span></span></a>
+   <div class="d-none d-lg-flex gap-4">
+    <a class="nav-l" href="/#inicio">Inicio</a><a class="nav-l" href="/#nosotros">Nosotros</a><a class="nav-l" href="/#servicios">Servicios</a><a class="nav-l" href="/#proceso">Proceso</a><a class="nav-l" href="/#planes">Planes</a><a class="nav-l" href="/#contacto">Contacto</a>
+   </div>
+   <div class="d-flex align-items-center gap-2">
+    <span class="d-none d-xxl-flex gap-2 me-2">
+     <a class="ic" href="https://www.linkedin.com/in/yasmanycastillo/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.06c.53-1 1.84-2 3.8-2 4.06 0 4.8 2.67 4.8 6.14V21h-4v-5.03c0-1.2-.02-2.74-1.67-2.74-1.67 0-1.93 1.3-1.93 2.65V21h-4z"/></svg></a>
+     <a class="ic" href="/#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3.2h-3.1V7.8c0-.9.3-1.5 1.6-1.5h1.7V3.4c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2.4H7.6V13h2.8v8z"/></svg></a>
+     <a class="ic" href="/#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.2-3.2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a>
+    </span>
+    <span class="pal d-none d-sm-flex" role="group" aria-label="Paleta de color"><button class="pb" data-pal="blue" aria-label="Paleta azul" aria-pressed="true"></button><button class="pv" data-pal="violet" aria-label="Paleta violeta" aria-pressed="false"></button></span>
+    <button class="sw" id="theme" role="switch" aria-checked="false" aria-label="Cambiar entre modo claro y oscuro"></button>
+    <a class="btn btn-c d-none d-xl-inline-block ms-2 py-2 px-4 btn-user" t-att-href="'/my' if not codec_user._is_public() else '/web/login?redirect=' + request.httprequest.path"><t t-if="codec_user._is_public()">Login</t><t t-else=""><span t-out="codec_user.name"/></t></a>
+    <a class="btn btn-c d-none d-xl-inline-block ms-2 py-2 px-4" href="/appointment/1">Agendar cita</a>
+    <button class="ic d-lg-none" id="burger" aria-label="Abrir menú" aria-expanded="false"><svg viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg></button>
+   </div>
+  </nav>
+  <div class="nav-menu d-none flex-column gap-3" id="menu">
+   <a class="nav-l" href="/#inicio">Inicio</a><a class="nav-l" href="/#nosotros">Nosotros</a><a class="nav-l" href="/#servicios">Servicios</a><a class="nav-l" href="/#proceso">Proceso</a><a class="nav-l" href="/#planes">Planes</a><a class="nav-l" href="/#contacto">Contacto</a>
+  <a class="btn btn-c align-self-start btn-user" t-att-href="'/my' if not codec_user._is_public() else '/web/login?redirect=' + request.httprequest.path"><t t-if="codec_user._is_public()">Login</t><t t-else=""><span t-out="codec_user.name"/></t></a>
+  <a class="btn btn-c align-self-start" href="/appointment/1">Agendar cita</a></div>
+ </div>
+</header>
+    </template>
+</odoo>

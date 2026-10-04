@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="section_cta" name="Codec CTA">
+<section class="pb-5"><div class="container-xxl px-3 px-lg-4"><div class="cta rv d-flex flex-wrap align-items-center justify-content-between gap-4">
+ <div><h2 class="display fs-2 mb-2">Lleva la gestión de tu empresa al siguiente nivel</h2><p class="mb-0" style="opacity:.8">Implementa Odoo ERP y Facturación Electrónica e-CF certificada por la DGII.</p></div>
+ <a class="btn btn-wa" href="https://wa.me/18098397458?text=Hola%20Codec%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n" target="_blank" rel="noopener">Escribir por WhatsApp</a></div></div></section>
+    </template>
+</odoo>

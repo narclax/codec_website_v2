@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="section_hero" name="Codec Hero (slider)">
+<section class="hero" id="inicio" aria-label="Destacados">
+ <div class="container-xxl px-3 px-lg-4">
+  <div class="sl" id="sl" aria-roledescription="carrusel">
+   <div class="sl-track" id="track">
+    <div class="slide on"><div class="row align-items-center gy-5 gx-lg-5">
+     <div class="col-lg-6 tx"><span class="eyebrow">Certificado DGII · Producción 24/7</span>
+      <h1 class="display mb-3">ERP y <span class="grad">Factura Electrónica</span> listos para producción</h1>
+      <p class="fs-5 text-mu mb-4">Implementamos Odoo y comprobantes fiscales electrónicos e-CF certificados por la DGII. Tu empresa operando en semanas, no en meses.</p>
+      <div class="d-flex flex-wrap gap-3"><a href="https://wa.me/18098397458?text=Hola%20Codec%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n" target="_blank" rel="noopener" class="btn btn-wa">Hablemos</a><a href="#planes" class="btn btn-o">Ver planes</a></div></div>
+     <div class="col-lg-6 art"><svg viewBox="0 0 520 420" role="img" aria-label="Ilustración de módulos Odoo conectados entre sí">
+      <g class="s-line dash"><path d="M260 210 130 90M260 210 400 80M260 210 90 270M260 210 430 290M260 210 260 360"/></g>
+      <circle class="s-p pulse" cx="260" cy="210" r="60"/><circle class="s-p" cx="260" cy="210" r="46"/><text x="260" y="216" text-anchor="middle" fill="#fff" font-family="Sora" font-weight="800" font-size="20">odoo</text>
+      <g class="flt"><rect class="s-card" x="85" y="60" width="90" height="60" rx="16"/><rect class="s-p" x="100" y="75" width="22" height="6" rx="3"/><rect class="s-mu" x="100" y="90" width="58" height="6" rx="3"/><text class="s-tx" x="100" y="112" font-size="11">CRM</text></g>
+      <g class="flt2"><rect class="s-card" x="355" y="50" width="90" height="60" rx="16"/><rect class="s-p" x="370" y="65" width="22" height="6" rx="3"/><rect class="s-mu" x="370" y="80" width="58" height="6" rx="3"/><text class="s-tx" x="370" y="102" font-size="11">Ventas</text></g>
+      <g class="flt2"><rect class="s-card" x="45" y="245" width="90" height="60" rx="16"/><rect class="s-p" x="60" y="260" width="22" height="6" rx="3"/><rect class="s-mu" x="60" y="275" width="58" height="6" rx="3"/><text class="s-tx" x="60" y="297" font-size="11">Contabilidad</text></g>
+      <g class="flt"><rect class="s-card" x="385" y="265" width="90" height="60" rx="16"/><rect class="s-p" x="400" y="280" width="22" height="6" rx="3"/><rect class="s-mu" x="400" y="295" width="58" height="6" rx="3"/><text class="s-tx" x="400" y="317" font-size="11">Inventario</text></g>
+      <g class="flt"><rect class="s-card" x="215" y="340" width="90" height="60" rx="16"/><rect class="s-p" x="230" y="355" width="22" height="6" rx="3"/><rect class="s-mu" x="230" y="370" width="58" height="6" rx="3"/><text class="s-tx" x="230" y="392" font-size="11">eCommerce</text></g></svg></div>
+    </div></div>
+
+    <div class="slide"><div class="row align-items-center gy-5 gx-lg-5">
+     <div class="col-lg-6 tx"><span class="eyebrow">Comprobantes fiscales e-CF</span>
+      <h2 class="display mb-3">Factura electrónica <span class="grad">certificada por la DGII</span></h2>
+      <p class="fs-5 text-mu mb-4">Emite e-CF desde Odoo, integrado a contabilidad, ventas e inventario, con reportes DGII listos.</p>
+      <div class="d-flex flex-wrap gap-3"><a href="#planes" class="btn btn-c">Ver planes</a></div></div>
+     <div class="col-lg-6 art"><svg viewBox="0 0 520 420" role="img" aria-label="Ilustración de comprobante fiscal electrónico validado por la DGII">
+      <g class="flt2"><rect class="s-card" x="120" y="30" width="270" height="340" rx="22"/><rect class="s-p" x="145" y="55" width="70" height="26" rx="13"/><text x="162" y="73" fill="#fff" font-family="Sora" font-weight="700" font-size="13">e-CF</text>
+      <rect class="s-mu" x="145" y="105" width="150" height="9" rx="4"/><rect class="s-mu" x="145" y="128" width="110" height="9" rx="4"/>
+      <path d="M145 165h220M145 215h220M145 265h220" stroke="var(--bd)"/><rect class="s-p" x="145" y="180" width="90" height="9" rx="4" opacity=".6"/><rect class="s-mu" x="300" y="180" width="65" height="9" rx="4"/><rect class="s-p" x="145" y="230" width="120" height="9" rx="4" opacity=".6"/><rect class="s-mu" x="300" y="230" width="65" height="9" rx="4"/>
+      <g class="s-p"><rect x="145" y="290" width="14" height="14"/><rect x="163" y="290" width="14" height="14" opacity=".4"/><rect x="145" y="308" width="14" height="14" opacity=".4"/><rect x="163" y="308" width="14" height="14"/><rect x="181" y="299" width="14" height="14" opacity=".6"/></g>
+      <text class="s-tx" x="300" y="318" font-size="16">Total</text></g>
+      <g class="flt"><circle cx="400" cy="320" r="52" fill="#22c55e"/><circle class="pulse" cx="400" cy="320" r="52" fill="#22c55e"/><path d="m377 320 16 16 31-34" stroke="#fff" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <g class="flt2"><rect class="s-card" x="40" y="250" width="110" height="44" rx="22"/><text class="s-tx" x="62" y="277" font-size="12">DGII ✓</text></g>
+      <path class="s-line dash" d="M390 150C450 170 460 230 430 262"/></svg></div>
+    </div></div>
+
+    <div class="slide"><div class="row align-items-center gy-5 gx-lg-5">
+     <div class="col-lg-6 tx"><span class="eyebrow">Desarrollo web y a medida</span>
+      <h2 class="display mb-3">Sitios y módulos <span class="grad">construidos a tu medida</span></h2>
+      <p class="fs-5 text-mu mb-4">Desde diseño web hasta módulos personalizados e integraciones, con código limpio y listo para escalar.</p>
+      <div class="d-flex flex-wrap gap-3"><a href="#servicios" class="btn btn-c">Conocer más</a></div></div>
+     <div class="col-lg-6 art"><svg viewBox="0 0 520 420" role="img" aria-label="Ilustración de ventana de navegador con código">
+      <g class="flt2"><rect class="s-card" x="40" y="40" width="440" height="300" rx="20"/><path d="M40 90h440" stroke="var(--bd)"/>
+      <circle cx="68" cy="65" r="6" fill="#ff5f57"/><circle cx="90" cy="65" r="6" fill="#febc2e"/><circle cx="112" cy="65" r="6" fill="#28c840"/>
+      <rect class="s-p" x="70" y="115" width="90" height="10" rx="5"/><rect class="s-mu" x="170" y="115" width="140" height="10" rx="5"/>
+      <rect class="s-mu" x="90" y="145" width="180" height="10" rx="5"/><rect class="s-p" x="280" y="145" width="70" height="10" rx="5" opacity=".6"/>
+      <rect class="s-mu" x="90" y="175" width="120" height="10" rx="5"/><rect class="s-p" x="220" y="175" width="110" height="10" rx="5"/>
+      <rect class="s-mu" x="70" y="205" width="200" height="10" rx="5"/><rect class="s-p" x="70" y="235" width="60" height="10" rx="5" opacity=".6"/><rect class="s-mu" x="140" y="235" width="160" height="10" rx="5"/>
+      <rect class="s-p blink" x="70" y="265" width="10" height="16" rx="2"/></g>
+      <g class="flt"><rect class="s-p" x="360" y="230" width="130" height="130" rx="24"/><path d="M405 270l-22 25 22 25M445 270l22 25-22 25M431 262l-12 66" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+      <circle class="s-p pulse" cx="60" cy="375" r="14"/></svg></div>
+    </div></div>
+
+    <div class="slide"><div class="row align-items-center gy-5 gx-lg-5">
+     <div class="col-lg-6 tx"><span class="eyebrow">Consultoría y eficiencia</span>
+      <h2 class="display mb-3">Crecimiento sostenible <span class="grad">medido en resultados</span></h2>
+      <p class="fs-5 text-mu mb-4">Combinamos conocimiento profundo de Odoo con experiencia en gestión empresarial para impulsar tu competitividad.</p>
+      <div class="d-flex flex-wrap gap-3"><a href="#proceso" class="btn btn-c">Cómo trabajamos</a></div></div>
+     <div class="col-lg-6 art"><svg viewBox="0 0 520 420" role="img" aria-label="Ilustración de gráfico de crecimiento">
+      <rect class="s-card" x="30" y="40" width="460" height="320" rx="24"/>
+      <g class="s-p"><rect class="bar" x="80" y="230" width="46" height="100" rx="10" opacity=".35"/><rect class="bar" x="150" y="190" width="46" height="140" rx="10" opacity=".5" style="animation-delay:-.6s"/><rect class="bar" x="220" y="160" width="46" height="170" rx="10" opacity=".7" style="animation-delay:-1.2s"/><rect class="bar" x="290" y="120" width="46" height="210" rx="10" style="animation-delay:-1.8s"/></g>
+      <path class="s-line dash" d="M90 210 175 170 245 140 315 90 420 70" stroke-width="3"/><circle class="s-p" cx="420" cy="70" r="9"/><circle class="s-p pulse" cx="420" cy="70" r="16"/>
+      <g class="flt"><rect class="s-card" x="365" y="250" width="130" height="80" rx="18"/><text class="s-tx" x="385" y="285" font-size="22">+38%</text><text x="385" y="310" fill="var(--mu)" font-size="12" font-family="Inter">Eficiencia</text></g></svg></div>
+    </div></div>
+   </div>
+   <div class="sl-ctl"><div class="d-flex gap-2" id="dots" role="tablist" aria-label="Diapositivas"></div>
+    <div class="ar d-flex gap-2"><button class="ic" id="prev" aria-label="Anterior"><svg viewBox="0 0 24 24"><path d="M15.4 5.4 14 4l-8 8 8 8 1.4-1.4L8.8 12z"/></svg></button><button class="ic" id="next" aria-label="Siguiente"><svg viewBox="0 0 24 24"><path d="M8.6 18.6 10 20l8-8-8-8-1.4 1.4 6.6 6.6z"/></svg></button></div></div>
+  </div>
+ </div>
+</section>
+<div class="wv" aria-hidden="true"><svg viewBox="0 0 1440 90" preserveAspectRatio="none"><path d="M0 0H1440V30C1200 90 960 90 720 55S240 -10 0 40z"/></svg></div>
+    </template>
+</odoo>

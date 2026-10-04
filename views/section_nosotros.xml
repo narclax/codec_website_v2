@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="section_nosotros" name="Codec Nosotros">
+<section class="section alt" id="nosotros"><div class="container-xxl px-3 px-lg-4"><div class="row gy-5 gx-lg-5 align-items-center">
+ <div class="col-lg-6 rv l"><span class="eyebrow">Quiénes somos</span>
+  <h2 class="display fs-1 mb-3">Nos preocupamos por los resultados</h2>
+  <p class="text-mu">Guiados por la experiencia adquirida durante más de 10 años logrando el éxito para nuestros clientes, realizamos nuestro trabajo con pasión y enfoque estratégico.</p>
+  <p class="text-mu">Codec es una empresa especializada en transformación digital, con un enfoque principal en soluciones empresariales Odoo. Somos parte de la comunidad de desarrolladores e implementadores de Odoo desde sus primeras versiones, y combinamos ese conocimiento con experiencia en gestión empresarial para impulsar la innovación y competitividad de nuestros clientes.</p>
+  <a href="#planes" class="btn btn-c mt-2">Descubre más</a></div>
+ <div class="col-lg-6 rv r"><div class="row g-3 text-center">
+  <div class="col-6"><div class="cd"><div class="stat grad">Silver</div><p class="mb-0 text-mu mt-2">Odoo Partner</p></div></div>
+  <div class="col-6"><div class="cd"><div class="stat grad">+10</div><p class="mb-0 text-mu mt-2">Años de experiencia</p></div></div>
+  <div class="col-6"><div class="cd"><div class="stat grad">DGII</div><p class="mb-0 text-mu mt-2">Certificado e-CF</p></div></div>
+  <div class="col-6"><div class="cd"><div class="stat grad">24/7</div><p class="mb-0 text-mu mt-2">Producción</p></div></div>
+ </div></div></div></div></section>
+    </template>
+</odoo>

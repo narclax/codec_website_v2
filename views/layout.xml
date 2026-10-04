@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Aplica el header, footer, botones flotantes y JS de Codec a TODO el sitio.
+         Se apagan el header/footer nativos con no_header/no_footer (sin eliminar nodos,
+         para no romper xpaths de otros módulos). -->
+    <template id="layout" inherit_id="website.layout" name="Codec Layout global">
+        <xpath expr="//html" position="before">
+            <t t-set="no_header" t-value="True"/>
+            <t t-set="no_footer" t-value="True"/>
+        </xpath>
+        <xpath expr="//head" position="inside">
+            <t t-call="codec_website_v2.head_assets"/>
+        </xpath>
+        <xpath expr="//main" position="before">
+            <t t-call="codec_website_v2.header"/>
+        </xpath>
+        <xpath expr="//main" position="after">
+            <t t-call="codec_website_v2.footer"/>
+            <t t-call="codec_website_v2.floating"/>
+            <t t-call="codec_website_v2.javascript"/>
+        </xpath>
+    </template>
+</odoo>

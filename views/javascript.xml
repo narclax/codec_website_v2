@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="javascript" name="Codec JavaScript">
+        <script src="/codec_website_v2/static/src/js/codec.js" defer="defer"></script>
+    </template>
+</odoo>

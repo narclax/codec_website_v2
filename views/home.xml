@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Sustituye la página de inicio (website.homepage) por el rediseño de Codec.
+         Header, footer, flotantes y JS vienen de layout.xml (todo el sitio). -->
+    <template id="home" inherit_id="website.homepage" name="Home Codec">
+        <xpath expr="//t[@t-call='website.layout']" position="inside">
+            <t t-set="title">Codec SRL | Odoo y Factura Electrónica e-CF certificada DGII en República Dominicana</t>
+            <t t-set="head"><t t-call="codec_website_v2.head"/></t>
+        </xpath>
+        <xpath expr="//div[@id='wrap']" position="replace">
+            <div id="wrap" class="codec-home">
+                <t t-call="codec_website_v2.section_hero"/>
+                <t t-call="codec_website_v2.section_sistema"/>
+                <t t-call="codec_website_v2.section_nosotros"/>
+                <t t-call="codec_website_v2.section_video"/>
+                <t t-call="codec_website_v2.section_servicios"/>
+                <t t-call="codec_website_v2.section_proceso"/>
+                <t t-call="codec_website_v2.section_planes"/>
+                <t t-call="codec_website_v2.section_cta"/>
+                <t t-call="codec_website_v2.section_contacto"/>
+            </div>
+        </xpath>
+    </template>
+</odoo>

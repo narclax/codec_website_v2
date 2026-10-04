@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="section_video" name="Codec Video">
+<section class="section pb-0" aria-label="Video institucional"><div class="container-xxl px-3 px-lg-4">
+ <h2 class="visually-hidden">Odoo y facturación electrónica en acción</h2>
+ <div class="vid rv">
+  <!-- video.mp4 (comprimido, sin audio) y poster.webp; el video se carga solo al acercarse a esta sección. -->
+  <video id="vv" muted="muted" loop="loop" playsinline="playsinline" preload="none" poster="/codec_website_v2/static/src/img/poster.webp" aria-label="Video demostrativo de Odoo"><source data-src="/codec_website_v2/static/src/video/video.mp4" type="video/mp4"/></video>
+  <button class="vctl" id="vctl" aria-label="Reproducir video" data-state="paused"><svg class="i-play" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" fill="currentColor" stroke="none"/></svg><svg class="i-pause" viewBox="0 0 24 24"><path d="M7 5h3v14H7zM14 5h3v14h-3z" fill="currentColor" stroke="none"/></svg></button>
+ </div></div></section>
+    </template>
+</odoo>

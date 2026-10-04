@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="section_proceso" name="Codec Proceso">
+<section class="section alt" id="proceso"><div class="container-xxl px-3 px-lg-4">
+ <div class="text-center mx-auto mb-5 rv" style="max-width:640px"><span class="eyebrow">Cómo trabajamos</span><h2 class="display fs-1">De diagnóstico a producción</h2><p class="text-mu">Nuestro método de implementación en cuatro fases.</p></div>
+ <div class="row gy-5 gx-lg-5" style="counter-reset:s">
+  <div class="col-md-6 col-xl-3 rv"><div class="step"><h3 class="h5">Diagnóstico</h3><p class="text-mu">Entendemos tu operación, objetivos y retos.</p></div></div>
+  <div class="col-md-6 col-xl-3 rv" style="--d:.1s"><div class="step"><h3 class="h5">Implementación</h3><p class="text-mu">Configuramos, desarrollamos y migramos tus datos.</p></div></div>
+  <div class="col-md-6 col-xl-3 rv" style="--d:.2s"><div class="step"><h3 class="h5">Capacitación</h3><p class="text-mu">Formamos a tu equipo para sacar el máximo provecho.</p></div></div>
+  <div class="col-md-6 col-xl-3 rv" style="--d:.3s"><div class="step"><h3 class="h5">Go-live</h3><p class="text-mu">Salida a producción con acompañamiento y soporte.</p></div></div>
+ </div></div></section>
+    </template>
+</odoo>
