@@ -15,7 +15,13 @@
      <a class="ic" href="https://www.facebook.com/profile.php?id=61587235717376" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M13.5 21v-8h2.7l.4-3.2h-3.1V7.8c0-.9.3-1.5 1.6-1.5h1.7V3.4c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2.4H7.6V13h2.8v8z"/></svg></a>
      <a class="ic" href="https://www.instagram.com/codecrd/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.2-3.2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a>
     </span>
-    <span class="pal d-none d-sm-flex" role="group" aria-label="Paleta de color"><button class="pb" data-pal="blue" aria-label="Paleta azul" aria-pressed="true"></button><button class="pv" data-pal="violet" aria-label="Paleta violeta" aria-pressed="false"></button></span>
+    
+    <span class="pal d-none d-sm-flex" role="group" aria-label="Paleta de color" style="display:none!important;">
+        <button class="pb" data-pal="blue" aria-label="Paleta azul" aria-pressed="true"></button>
+        <button class="pv" data-pal="violet" aria-label="Paleta violeta" aria-pressed="false"></button>
+    </span>
+
+
     <button class="sw" id="theme" role="switch" aria-checked="false" aria-label="Cambiar entre modo claro y oscuro"></button>
     <a class="btn btn-c d-none d-xl-inline-block ms-2 py-2 px-4 btn-user" t-att-href="'/my' if not codec_user._is_public() else '/web/login?redirect=' + request.httprequest.path"><t t-if="codec_user._is_public()">Login</t><t t-else=""><span t-out="codec_user.name"/></t></a>
     <a class="btn btn-c d-none d-xl-inline-block ms-2 py-2 px-4" href="/appointment/1">Agendar cita</a>
