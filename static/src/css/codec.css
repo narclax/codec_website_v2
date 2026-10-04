@@ -111,3 +111,8 @@ h1,h2,h3,h4,.display{font-family:"Sora",sans-serif;letter-spacing:-.02em;font-we
 
 /* Botón Login / nombre de usuario (mismo estilo que Agendar cita) */
 .btn-user span{display:inline-block;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:bottom}
+
+/* Fix inconsistencia tema natural Odoo */
+.nav-l:hover {
+    text-decoration: none;
+}

@@ -5,7 +5,7 @@
  <div class="col-lg-5 rv l"><span class="eyebrow">Contacto</span><h2 class="display fs-1 mb-3">¿Listo para digitalizar tu empresa?</h2>
   <p class="text-mu">Cuéntanos tu proyecto y agenda tu cita; te responderemos con una propuesta.</p>
   <p class="mb-1"><strong>Correo:</strong> <a href="mailto:ventas@codec.do" class="text-decoration-none" style="color:var(--p)">ventas@codec.do</a></p>
-  <p class="mb-1"><strong>Teléfono / WhatsApp:</strong> <a href="tel:+18098397458" class="text-decoration-none" style="color:var(--p)">+1 809 839 7458</a></p>
+  <p class="mb-1"><strong>Teléfono / WhatsApp:</strong> <a href="tel:+18294570964" class="text-decoration-none" style="color:var(--p)">+1 (829) 457-0964</a></p>
   <p><strong>Ubicación:</strong> Santo Domingo, República Dominicana</p></div>
  <div class="col-lg-7 rv r"><form id="contacto_form" class="ct cd s_website_form o_mark_required" action="/website/form/" method="post" enctype="multipart/form-data" data-mark="*" data-model_name="crm.lead" data-success-mode="redirect" data-success-page="/contactus-thank-you">
   <div class="s_website_form_rows row g-3">
