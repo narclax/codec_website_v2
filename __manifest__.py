@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Codec Website V2',
-    'summary': 'Rediseño del website de Codec S.R.L',
-    'description': 'Sustituye la home por el nuevo diseño que contiene: header fijo, slider, secciones, planes, footer, modo light/dark y cambio de color primario entre violeta y azul.',
+    'summary': 'Rediseño de Codec S.R.L: home + header y footer en todo el sitio',
+    'description': 'Sustituye la home por el nuevo diseño: header fijo, slider, secciones, planes, footer, modo claro/oscuro y paletas.',
     'version': '18.0.1.0.0',
     'category': 'Website/Theme',
-    'author': 'Codec S.R.L - José Marty',
+    'author': 'Codec S.R.L',
     'website': 'https://www.codec.do',
     'license': 'LGPL-3',
     'depends': ['website', 'website_crm'],

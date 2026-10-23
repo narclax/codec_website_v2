@@ -2,5 +2,7 @@
 <odoo>
     <template id="javascript" name="Codec JavaScript">
         <script src="/codec_website_v2/static/src/js/codec.js" defer="defer"></script>
+        <script src="/codec_website_v2/static/src/js/codec-lang.js" defer="defer"></script>
+        <script src="/codec_website_v2/static/src/js/codec-scroll.js" defer="defer"></script>
     </template>
 </odoo>

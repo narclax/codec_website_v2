@@ -18,7 +18,7 @@
         <meta property="og:image" t-attf-content="#{request.httprequest.host_url}codec_website_v2/static/src/img/logo.png"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ProfessionalService","name":"CODEC S.R.L","legalName":"CODEC S.R.L","url":"https://www.codec.do/","email":"ventas@codec.do","telephone":"+18098397458","logo":"https://www.codec.do/codec_website_v2/static/src/img/logo.png","areaServed":"DO","address":{"@type":"PostalAddress","addressLocality":"Santo Domingo","addressCountry":"DO"},"description":"Empresa de transformación digital especializada en soluciones empresariales Odoo.","sameAs":["https://www.linkedin.com/in/yasmanycastillo/"]}
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"CODEC S.R.L","legalName":"CODEC S.R.L","url":"https://www.codec.do/","email":"ventas@codec.do","telephone":"+18294570964","logo":"https://www.codec.do/codec_website_v2/static/src/img/logo.png","areaServed":"DO","address":{"@type":"PostalAddress","addressLocality":"Santo Domingo","addressCountry":"DO"},"description":"Empresa de transformación digital especializada en soluciones empresariales Odoo.","sameAs":["https://www.linkedin.com/in/yasmanycastillo/","https://www.facebook.com/profile.php?id=61587235717376","https://www.instagram.com/codecrd/"]}
 </script>
     </template>
 </odoo>

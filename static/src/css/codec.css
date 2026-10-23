@@ -3,13 +3,6 @@
 @font-face{font-family:"Objektiv";src:url("/codec_website_v2/static/src/fonts/Objektiv-Medium.woff2") format("woff2");font-weight:500;font-display:swap} */
 :root{--p:#1f4385;--p2:#077b96;--p-rgb:31,67,133;--bg:#fff;--bg2:#f0f6fa;--tx:#0f1f33;--mu:#51657a;--bd:#dbe6ee;--card:#fff;--sh:0 10px 30px rgba(15,45,90,.09);--g1:#16336b;--g2:#055f75;--c1:#0b1f3f;--c2:#075a72}
 :root[data-theme=dark]{--p:#3a86dc;--p2:#0a9bbd;--p-rgb:58,134,220;--bg:#08121c;--bg2:#0d1d2b;--tx:#e8f2f8;--mu:#92a8ba;--bd:#1b3347;--card:#0f2132;--sh:0 10px 30px rgba(0,0,0,.5)}
-:root[data-palette=violet]{--p:#6a4cff;--p2:#9b6bff;--p-rgb:106,76,255;--g1:#4a33cf;--g2:#6a3fc0;--c1:#0e0c2b;--c2:#241a7a}
-:root[data-palette=violet]:not([data-theme=dark]){--bg2:#f5f4fb;--tx:#16152a;--mu:#5f5e78;--bd:#e7e5f3;--sh:0 10px 30px rgba(34,22,100,.08)}
-:root[data-palette=violet][data-theme=dark]{--bg:#0d0c1a;--bg2:#141330;--tx:#eeedfa;--mu:#a3a2c0;--bd:#25234a;--card:#171635;--sh:0 10px 30px rgba(0,0,0,.45)}
-.pal{display:flex;gap:.4rem;align-items:center;margin-right:.35rem}
-.pal button{width:20px;height:20px;border-radius:50%;border:2px solid var(--bg);padding:0;cursor:pointer;transition:transform .25s,box-shadow .25s;box-shadow:0 0 0 1px var(--bd)}
-.pal button:hover{transform:scale(1.15)}.pal button[aria-pressed=true]{box-shadow:0 0 0 2px var(--tx)}
-.pal .pb{background:linear-gradient(135deg,#1f4385,#077b96)}.pal .pv{background:linear-gradient(135deg,#6a4cff,#9b6bff)}
 html{overflow-x:hidden;overflow-x:clip;scroll-behavior:smooth;scroll-padding-top:80px}
 body{font-family:"Objektiv","Inter",system-ui,sans-serif;background:var(--bg);color:var(--tx);transition:background .3s,color .3s;overflow-x:hidden;overflow-x:clip}
 main,section,footer{overflow-x:hidden;overflow-x:clip;max-width:100%}
@@ -19,8 +12,8 @@ h1,h2,h3,h4,.display{font-family:"Sora",sans-serif;letter-spacing:-.02em;font-we
 .eyebrow{display:inline-block;color:var(--p);font-weight:600;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;margin-bottom:.75rem}
 .grad{background:linear-gradient(90deg,var(--p),var(--p2));-webkit-background-clip:text;background-clip:text;color:transparent}
 /* Header */
-.hd{position:fixed;inset:0 0 auto 0;z-index:1030;padding:1.1rem 0;transition:all .35s}
-.hd.scrolled{padding:.5rem 0;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:saturate(180%) blur(14px);box-shadow:0 8px 28px rgba(10,35,70,.10);border-bottom:1px solid var(--bd)}
+.hd{position:fixed;inset:0 0 auto 0;z-index:1030;padding:0;transition:all .35s}
+.hd.scrolled{background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:saturate(180%) blur(14px);box-shadow:0 8px 28px rgba(10,35,70,.10);border-bottom:1px solid var(--bd)}
 .brand{font:800 1.2rem/1 Sora,sans-serif;letter-spacing:.07em;color:var(--tx);white-space:nowrap}
 .hd img{height:64px;width:auto;transition:height .35s}.hd.scrolled img{height:52px}
 .nav-l{color:var(--tx);text-decoration:none;font-weight:500;font-size:.95rem;position:relative;padding:.3rem 0}
@@ -38,7 +31,7 @@ h1,h2,h3,h4,.display{font-family:"Sora",sans-serif;letter-spacing:-.02em;font-we
 .btn-o{border:1.5px solid var(--bd);color:var(--tx);border-radius:50px;padding:.85rem 1.8rem;font-weight:600;box-shadow:0 8px 20px rgba(10,35,70,.08);transition:.3s;background:var(--card)}
 .btn-o:hover{border-color:var(--p);color:var(--p);transform:translateY(-3px)}
 /* Slider */
-.hero{position:relative;min-height:100vh;display:flex;align-items:center;padding-top:90px;overflow:hidden;background:radial-gradient(60% 60% at 80% 20%,rgba(var(--p-rgb),.16),transparent),var(--bg2)}
+.hero{position:relative;min-height:100vh;display:flex;align-items:center;padding-top:135px;overflow:hidden;background:radial-gradient(60% 60% at 80% 20%,rgba(var(--p-rgb),.16),transparent),var(--bg2)}
 .sl{position:relative;width:100%}.sl-track{display:flex;transition:transform .8s cubic-bezier(.65,.05,.2,1)}
 .slide{flex:0 0 100%;padding:1rem 0 3.5rem}
 .slide .tx>*,.slide .art{opacity:0;transform:translateY(28px);transition:opacity .8s,transform .8s}
@@ -103,7 +96,7 @@ h1,h2,h3,h4,.display{font-family:"Sora",sans-serif;letter-spacing:-.02em;font-we
 
 /* ===== Todo el sitio (páginas internas de Odoo) ===== */
 #wrapwrap{background:var(--bg);color:var(--tx)}
-#wrapwrap>main{padding-top:96px;min-height:60vh}
+#wrapwrap>main{padding-top:140px;min-height:60vh}
 #wrapwrap>main:has(.codec-home){padding-top:0}
 /* Modo oscuro: componentes nativos de Odoo con fondo propio */
 :root[data-theme=dark] main :is(.card,.list-group-item,.modal-content,.dropdown-menu,.form-control,.form-select,.table){background-color:var(--card);color:var(--tx);border-color:var(--bd)}
@@ -112,7 +105,24 @@ h1,h2,h3,h4,.display{font-family:"Sora",sans-serif;letter-spacing:-.02em;font-we
 /* Botón Login / nombre de usuario (mismo estilo que Agendar cita) */
 .btn-user span{display:inline-block;max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:bottom}
 
-/* Fix inconsistencia tema natural Odoo */
-.nav-l:hover {
-    text-decoration: none;
-}
+/* ===== Top bar + selector de idioma ===== */
+.hd>.container-xxl{padding-top:.8rem;padding-bottom:.8rem;transition:padding .35s}
+.hd.scrolled>.container-xxl{padding-top:.4rem;padding-bottom:.4rem}
+.tb{font-size:.8rem;color:var(--mu);border-bottom:1px solid var(--bd);max-height:48px;overflow:hidden;transition:max-height .35s,opacity .3s,border-color .3s}
+.tb>.container-xxl{display:flex;align-items:center;justify-content:space-between;min-height:38px;padding-top:.25rem;padding-bottom:.25rem}
+.tb a{color:var(--mu);text-decoration:none;transition:color .2s}.tb a:hover{color:var(--p)}
+.hd.scrolled .tb{max-height:0;opacity:0;border-color:transparent}
+.tb .ic{width:26px;height:26px;color:var(--mu)}.tb .ic:hover{color:#fff}.tb .ic svg{width:13px;height:13px}
+.tb .sw{width:44px;height:24px}.tb .sw::before{width:16px;height:16px;top:3px;left:3px}
+:root[data-theme=dark] .tb .sw::before{transform:translateX(20px)}
+.lang{display:inline-flex;border:1px solid var(--bd);border-radius:20px;overflow:hidden;background:var(--card)}
+.lang button{border:0;background:transparent;color:var(--mu);font:600 .72rem/1 Inter,sans-serif;padding:.4rem .7rem;cursor:pointer;transition:background .25s,color .25s}
+.lang button:hover{color:var(--p)}
+.lang button[aria-pressed=true]{background:var(--p);color:#fff}
+@media(min-width:768px){.w-md-auto{width:auto!important}}
+
+/* Etiqueta Dark / Light junto al switch */
+.tm-wrap{display:inline-flex;align-items:center;gap:.25rem;margin-right:.1rem}
+.tm,.tm-sep{font-size:.72rem;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:var(--mu);transition:color .25s}
+:root[data-theme=dark] .tm-d,:root:not([data-theme=dark]) .tm-l{color:var(--tx);font-weight:700}
+@media(max-width:767px){.tb .lang{margin-left:auto}}
