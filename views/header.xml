@@ -16,7 +16,7 @@
      <a class="ic" href="https://www.instagram.com/codecrd/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.2-3.2a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a>
     </span>
    <div class="d-flex align-items-center gap-2 flex-grow-1 flex-md-grow-0">
-    <span class="tm-wrap" aria-hidden="true"><span class="tm tm-d">Dark</span> <span class="tm-sep">/</span> <span class="tm tm-l">Light</span></span>
+    <span class="tm-wrap" aria-hidden="true"><span class="tm tm-l">Light</span> <span class="tm-sep">/</span> <span class="tm tm-d">Dark</span></span>
     <button class="sw" id="theme" role="switch" aria-checked="false" aria-label="Cambiar entre modo claro y oscuro"></button>
     <div class="lang" role="group" aria-label="Idioma"><button type="button" data-lang="es" aria-pressed="true">ES</button><button type="button" data-lang="en" aria-pressed="false">EN</button></div>
    </div>
