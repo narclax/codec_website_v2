@@ -126,3 +126,6 @@ h1,h2,h3,h4,.display{font-family:"Sora",sans-serif;letter-spacing:-.02em;font-we
 .tm,.tm-sep{font-size:.72rem;font-weight:500;letter-spacing:.05em;text-transform:uppercase;color:var(--mu);transition:color .25s}
 :root[data-theme=dark] .tm-d,:root:not([data-theme=dark]) .tm-l{color:var(--tx);font-weight:700}
 @media(max-width:767px){.tb .lang{margin-left:auto}}
+
+
+.nav-l:hover {text-decoration: none;}
